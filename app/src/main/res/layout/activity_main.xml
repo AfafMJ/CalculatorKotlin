@@ -62,11 +62,11 @@
             android:text="⌫"/>
         <Button
             style="@style/buttonNumber"
-            android:textColor="@color/white"
+            android:textColor="@color/orange"
             android:text="-/+" />
         <Button
             style="@style/buttonOperator"
-            android:textColor="@color/white"
+            android:textColor="@color/orange"
             android:text="/"/>
 
     </LinearLayout>
@@ -88,7 +88,7 @@
             android:text="9" />
         <Button
             style="@style/buttonOperator"
-            android:textColor="@color/white"
+            android:textColor="@color/orange"
 
             android:text="x"/>
 
@@ -111,40 +111,10 @@
             android:text="6" />
         <Button
             style="@style/buttonOperator"
-            android:textColor="@color/white"
+            android:textColor="@color/orange"
 
             android:text="-"/>
-<!--        <Button-->
-<!--            style="@style/<?xml version="1.0" encoding="utf-8"?>-->
-<!--        <resources>-->
-<!--            <style name="buttonRow">-->
-<!--                <item name="android:layout_weight">1</item>-->
-<!--                <item name="android:layout_width">match_parent</item>-->
-<!--                <item name="android:layout_height">0dp</item>-->
-<!--            </style>-->
 
-<!--            <style name="buttonNumber">-->
-<!--                <item name="android:layout_weight">1</item>-->
-<!--                <item name="android:layout_width">0dp</item>-->
-<!--                <item name="android:layout_height">match_parent</item>-->
-<!--                <item name="android:background">@null</item>-->
-<!--                <item name="android:textSize">25sp</item>-->
-<!--                <item name="android:textColor">@color/white</item>-->
-<!--                <item name="android:onClick">numberAction</item>-->
-<!--            </style>-->
-
-<!--            <style name="buttonOperator">-->
-<!--                <item name="android:layout_weight">1</item>-->
-<!--                <item name="android:layout_width">0dp</item>-->
-<!--                <item name="android:layout_height">match_parent</item>-->
-<!--                <item name="android:background">@null</item>-->
-<!--                <item name="android:textSize">25sp</item>-->
-<!--                <item name="android:textColor">@color/orange</item>-->
-<!--                <item name="android:onClick">operationAction</item>-->
-<!--            </style>-->
-
-<!--        </resources>"-->
-            android:text="-"/>
 
     </LinearLayout>
 
@@ -165,7 +135,7 @@
             android:text="3" />
         <Button
             style="@style/buttonOperator"
-           android:textColor="@color/white"
+           android:textColor="@color/orange"
             android:text="+"/>
 
     </LinearLayout>
